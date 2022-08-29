@@ -4,6 +4,7 @@ custom forms removing default appearance, using "focus, placeholder-shown, check
 
 # Removing default appearance and replace with custom iamge
 
+
 ```
 select {
   -moz-appearance: none;
@@ -27,14 +28,18 @@ select {
 
 # Using placeholder-shown
 
+
 ```
 /* The border becomes dashed when the element's placeholder text is visible */
 .text-input:placeholder-shown {
   border-style: dashed;
 }
+```
+
 
 # Using checked + label
 
+```
 /* The font style of the adjacent element changes when the given element is checked */
 .checkbox:checked + label {
   color: #999999;
